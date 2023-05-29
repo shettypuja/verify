@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height: 100;
+}
+.Container{
+    align-items: center;
+}
+.close_icon{
+    background-image: url('./image/cancel_icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.4rem;
+    height: 2.9rem;
+    width: 4.2rem;
+    float: right;
+}
+.verify{
+    display: flex;
+    flex-direction: column;
+}
+.verification_info h1{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+.inbox_info p{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #959BA6;
+}
+.code_content{
+    height: 3.5rem;
+    width: 35%;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background-color: #F5F7F9;
+    display: flex;
+    align-items: center;
+    margin: 3rem auto;
+}
+.code_icon_box{
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 4rem;
+    background-color: #fff;
+}
+.code-icon{
+    background-image: url('./image/code_icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.4rem;
+    height: 2.9rem;
+    width: 4.2rem;
+}
+.code_info input{
+    border: none ;
+    background-color: transparent;
+    margin-left: 1rem;
+    outline: none;
+}
+.resend p{
+    text-align: center;
+    font-size: 1.2rem;   
+}
+.button_container1{
+    width: 50%;
+    border-radius: 0.4rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 1rem 24rem;
+}
+.Back_btn{
+    width: 75%;
+    height: 3.5rem;
+    border: none;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 0rem 1.3rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.Back_btn{
+    background-color: teal;
+    color: #fff;
+}
+    
+    
